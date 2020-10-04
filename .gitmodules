@@ -1,0 +1,6 @@
+[submodule ".antigen"]
+	path = .antigen
+	url = ./.antigen
+[submodule ".tmux"]
+	path = .tmux
+	url = ./.tmux

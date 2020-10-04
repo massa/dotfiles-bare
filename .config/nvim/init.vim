@@ -107,6 +107,8 @@ Plug 'vim-scripts/csv.vim'
 " Others
 "Plug 'massa/vim-delphi'
 
+Plug 'bhurlow/vim-parinfer'
+
 Plug 'sheerun/vim-polyglot'
 
 Plug 'hashivim/vim-vagrant'

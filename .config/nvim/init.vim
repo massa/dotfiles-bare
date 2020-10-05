@@ -159,6 +159,6 @@ Plug 'kyoz/purify', { 'rtp': 'vim' }
 " All of your Plugins must be added before the following line
 call plug#end()
 
-colorscheme purify
+silent! colorscheme purify
 syntax on
 

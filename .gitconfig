@@ -1,0 +1,71 @@
+[user]
+	name = Humberto Massa
+	email = humbertomassa@gmail.com
+[push]
+	default = simple
+[diff]
+	tool = kdiff3
+[merge]
+	tool = kdiff3
+[core]
+	autocrlf = false
+	editor = /usr/bin/nvim
+[https]
+	proxy =
+[http]
+	proxy =
+	sslVerify = false
+[credential "https://github.com"]
+	username = massa
+	helper = store
+[hub]
+	username = massa
+	oauthtoken = 555d9a6134b718951e5e67ce3be0dd5757daa7ee
+[gc]
+	autoDetach = false
+[http "https://massa@localhost:4443"]
+	proxy = 
+	username = massa
+	helper = store
+[https "https://massa@localhost:4443"]
+	proxy = 
+	username = massa
+	helper = store
+[http "https://localhost:4443"]
+	proxy = 
+	username = massa
+	helper = store
+[https "https://localhost:4443"]
+	proxy = 
+	username = massa
+	helper = store
+[http "https://localhost"]
+	proxy = 
+	username = massa
+	helper = store
+[https "https://localhost"]
+	proxy = 
+	username = massa
+	helper = store
+[http "https://gitlab.almg.uucp"]
+	proxy = socks5://localhost:1080/
+	username = massa
+	helper = store
+[https "https://gitlab.almg.uucp"]
+	proxy = socks5://localhost:1080/
+	username = massa
+	helper = store
+[http "https://gitlab-ext.almg.gov.br"]
+	proxy = 
+	username = massa
+	helper = store
+[https "https://gitlab-ext.almg.gov.br"]
+	proxy = 
+	username = massa
+	helper = store
+[credential "https://gitlab.almg.uucp"]
+	username = massa
+	helper = store
+[credential "https://gitlab-ext.almg.gov.br"]
+	username = massa
+	helper = store

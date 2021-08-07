@@ -69,3 +69,5 @@
 [credential "https://gitlab-ext.almg.gov.br"]
 	username = massa
 	helper = store
+[pull]
+	rebase = true

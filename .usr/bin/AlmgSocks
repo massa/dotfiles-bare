@@ -1,0 +1,12 @@
+#!/usr/bin/env zsh
+
+if [[ -n "$1" ]]; then
+  AlmgVPN
+  sleep 5
+fi
+
+nc -z localhost 1080 || ssh -f -N almgsocks
+nc -z localhost 33301 || ssh -f -N admap-h
+nc -z localhost 33302 || ssh -f -N admap-p
+ssh -f -N listenvnc
+

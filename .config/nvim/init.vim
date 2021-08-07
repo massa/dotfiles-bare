@@ -74,15 +74,17 @@ let g:Perl_AuthorRef          = 'hm'
 let g:Perl_Email              = 'humbertomassa@gmail.com'
 let g:Perl_Company            = 'ALMG'
 let g:LargeFile               = 2
-let g:raku_unicode_abbrevs    = 1
+let g:raku_unicode_abbrevs    = 0
 let g:pascal_delphi           = 1
 let g:suda_smart_edit         = 1
 let g:csv_autocmd_arrange     = 1
-let g:rainbow_active          = 1
+let g:rainbow_active          = 0
 let g:airline_powerline_fonts = 1
 let g:airline_theme           = 'purify'
 let g:lightline               = { 'colorscheme': 'landscape', }
-let g:solarized_termtrans     = 1
+let g:solarized_termtrans     = 0
+let g:ale_cpp_cc_options      = '-std=c++20 -Wall'
+let g:ale_linters             = { 'python': ['pylint'], 'vim': ['vint'], 'cpp': ['clang'], 'c': ['clang'] }
 
 " let g:coc_disable_startup_warning = 1
 let g:NERDTreeGitStatusUseNerdFonts = 1

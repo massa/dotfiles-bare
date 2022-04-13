@@ -38,7 +38,7 @@ if [ -f "$HOME/.antigen/antigen.zsh" ]; then
     docker-machine
     docker-compose
     debian
-    osx
+    macos
     brew
     brew-cask
     systemd

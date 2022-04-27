@@ -45,6 +45,7 @@ if [ -f "$HOME/.antigen/antigen.zsh" ]; then
     z
 
     sudo
+    taskwarrior
 
     zsh-users/zsh-history-substring-search
 

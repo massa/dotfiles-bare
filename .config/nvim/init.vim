@@ -104,7 +104,8 @@ Plug 'vim-scripts/extradite.vim'
 Plug 'vim-scripts/repeat.vim'
 Plug 'vim-scripts/speeddating.vim'
 Plug 'vim-scripts/unimpaired.vim'
-Plug 'vim-scripts/csv.vim'
+"Plug 'vim-scripts/csv.vim'
+Plug 'mechatroner/rainbow_csv'
 
 " Others
 "Plug 'massa/vim-delphi'
@@ -155,6 +156,8 @@ Plug 'severin-lemaignan/vim-minimap'
 "Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
 Plug 'kyoz/purify', { 'rtp': 'vim' }
+
+Plug 'Raku/vim-raku'
 
 "Plug 'plan9-for-vimspace/plan9-for-vimspace'
 

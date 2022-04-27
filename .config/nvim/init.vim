@@ -142,13 +142,14 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 Plug 'preservim/nerdtree' |
             \ Plug 'Xuyuanp/nerdtree-git-plugin' |
             \ Plug 'ryanoasis/vim-devicons'
 
-"Plug 'neoclide/coc.nvim', {'branch': 'master'}
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
+"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
 
 Plug 'itchyny/lightline.vim'
 Plug 'ap/vim-css-color'

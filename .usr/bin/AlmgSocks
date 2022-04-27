@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 if [[ -n "$1" ]]; then
-  AlmgVPN
+  env DISPLAY=:0 AlmgVPN
   sleep 5
 fi
 

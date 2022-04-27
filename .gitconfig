@@ -11,9 +11,9 @@
 	autocrlf = false
 	editor = /usr/bin/nvim
 [https]
-	proxy =
+	proxy = http://squid.almg.uucp:3128
 [http]
-	proxy =
+	proxy = http://squid.almg.uucp:3128
 	sslVerify = false
 [credential "https://github.com"]
 	username = massa

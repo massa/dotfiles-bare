@@ -88,3 +88,6 @@ fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Lastly, clean my PATH
+[[ $(which raku) ]] && export PATH=$(raku -e '%*ENV<PATH>.split(":").map({ if .IO.d && .IO.dir.grep({ .x && ! .d }) -> $d { $_ } }).join(":").say')

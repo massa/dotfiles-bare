@@ -47,6 +47,8 @@ if [ -f "$HOME/.antigen/antigen.zsh" ]; then
     sudo
     taskwarrior
 
+    asdf
+
     zsh-users/zsh-history-substring-search
 
     Tarrasch/zsh-bd

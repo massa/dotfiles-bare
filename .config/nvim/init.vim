@@ -89,7 +89,7 @@ let g:ale_linters             = { 'python': ['pylint'], 'vim': ['vint'], 'cpp': 
 " let g:coc_disable_startup_warning = 1
 let g:NERDTreeGitStatusUseNerdFonts = 1
 let g:deoplete#enable_at_startup    = 1
-let $NVIM_TUI_ENABLE_CURSOR_SHAPE   = 0
+" let $NVIM_TUI_ENABLE_CURSOR_SHAPE   = 0
 
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
@@ -110,6 +110,7 @@ Plug 'mechatroner/rainbow_csv'
 " Others
 "Plug 'massa/vim-delphi'
 
+Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-media-files.nvim'

@@ -19,9 +19,9 @@ if [ -f "$HOME/.antigen/antigen.zsh" ]; then
 
     git
     git-extras
-    git-flow
+    git-flow-avh
     gitignore
-    github
+    gh
 
     rsync
     python

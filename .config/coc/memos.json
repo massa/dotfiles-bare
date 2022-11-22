@@ -1,0 +1,16 @@
+{
+  "coc-json|global": {
+    "json-schema-cache": {
+      "https://json.schemastore.org/package.json": {
+        "etag": "\"032a04c70f0d81:0\"",
+        "fileName": "473f72b44c2905902dfbcc770aab7f7a.schema.json",
+        "updateTime": 1668608617142
+      },
+      "https://json.schemastore.org/config.json": {
+        "etag": "\"bcd1f6fd316ad81:0\"",
+        "fileName": "ee050b74d016c5f06e4024d2dce36b54.schema.json",
+        "updateTime": 1668610574588
+      }
+    }
+  }
+}

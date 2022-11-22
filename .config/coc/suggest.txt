@@ -1,0 +1,186 @@
+telesco|telescope|tabnine|
+day|day-of-year|around|
+n|new|around|
+tru|truncated|tabnine|
+algo|algorithm>|clangd|F
+"lang|"languageserver": {$1}|json|m
+squ|square_root_t|tabnine|
+__u|__uint128_t|tabnine|
+__uin|__uint128_t|tabnine|
+squ|square_root|tabnine|
+squ|square_root|tabnine|
+__u|__uint128_t|tabnine|
+remove_unsi|remove_unsigned|tabnine|
+squ|square_root_size_t|tabnine|
+:s|:same_as<T, __int128_t> || std::same_as<T, __uint128_t>|tabnine|
+requi|requires { integral<T> || bits128<T>}|tabnine|S
+sq|square_root_size_t|around|
+square|square_root_size|tabnine|
+make_ung|make_unsigned<half_size>|tabnine|S
+hal|half_size|tabnine|
+uint|uint64_t|tabnine|
+u|uint64_t|around|
+typen|typename|tabnine|
+__u|__uint128_t|tabnine|
+__|__int128_t|tabnine|
+cmake_minimu|cmake_minimum_version|tabnine|
+book|bookworm|tabnine|
+id_r|id_rsa|tabnine|
+IdentityFile|IdentityFile ~/.ssh/al|tabnine|
+Iden|IdentityFile ~/.ssh/al|tabnine|
+missis|mississipi|buffer|
+contit|constitution|buffer|
+ex|exec "[[ $(hostname) ==]]"|tabnine|S
+ProxyJ|ProxyJump|tabnine|
+Prox|ProxyJump|around|
+NoHostAuthe|NoHostAuthentication|tabnine|
+LocalFor|LocalForward|tabnine|
+Local|Local|tabnine|
+localhost:|localhost:10022|tabnine|
+NoHostAuthe|NoHostAuthentication no|tabnine|
+No|Non|tabnine|
+me-tun|me-tunnel|around|
+alm|almg|tabnine|
+pro|ProxyJump|buffer|
+HostN|HostName|tabnine|
+origi|originalhost|tabnine|
+Por|Port localhost|tabnine|
+HostN|HostName|tabnine|
+Jum|ProxyJump|tabnine|
+localhst|localhost:3306|tabnine|
+Remo|RemoteForward|tabnine|
+Remo|RemoteForward|tabnine|
+Req|RequestTTY no|tabnine|
+Pas|PasswordAuthentication no|tabnine|
+For|ForwardX11|tabnine|
+i|id_aws.pem|file|
+Ide|IdentityFile ~/.ssh/|tabnine|
+Iden|IdentityFile ~/.ssh/|tabnine|
+ub|ubuntu|tabnine|
+E|E8099|around|
+exec|exec "~/.usr/bin/"|tabnine|S
+exec|exec "~/.usr/bin/"|tabnine|S
+exec|exec "~/.usr/bin/"|tabnine|S
+ori|originalhost|tabnine|
+algor|algorithm>|tabnine|
+set|set_number(4)|tabnine|S
+set|set_number(2,)|tabnine|S
+set|set_number|around|
+set|set_number|tabnine|
+set|set_number|tabnine|
+set|set_number|tabnine|
+set|set_number|around|
+set|set_number(0, 3, 3).set_number()|tabnine|S
+set|set_number|tabnine|
+size|size_t i = 0; i <|tabnine|
+0|0; i < 10; i|tabnine|
+end|endl;|tabnine|
+setting|setting " << i << " " << j << std::endl;|tabnine|
+size|size_t i = 0; i < 9; ++i )|tabnine|
+bits[row]|bits[row][col][i] =|tabnine|
+si|size_t i = 0; i < n; ++i )|tabnine|
+impos|impossible|tabnine|
+impossi|impossible"; }|tabnine|
+noex|noexcept { return}|tabnine|S
+const|const char *|tabnine|
+char|char *what|tabnine|
+exception|exception { };|tabnine|
+size|size_t count|tabnine|
+si|size_t col,|tabnine|
+size|size_t|tabnine|
+set|set_number|tabnine|
+va|value_at|tabnine|
+value|value_at(b, i, j) <<|tabnine|
+size|size_t i = 0; i <|tabnine|
+coun|count_bits;|tabnine|
+cur|current_bit;|tabnine|
+last|last_bit = current_bit;|tabnine|
+cur|current_bit|tabnine|
+cur|current_bit;|tabnine|
+last|last_bit = current|tabnine|
+cur|current_bit|tabnine|
+count|count_bits|tabnine|
+sie|size_t|tabnine|
+size_|size_t index|tabnine|
+const|const board& b) {}|tabnine|S
+row|row << " " << col << " " << val << std::endl|tabnine|
+set|set_number|tabnine|
+std:|:hex << std::|tabnine|
+all|allpositions[row][col] =|tabnine|
+noe|noexcept { return}|tabnine|S
+impossible"|impossible"; }|tabnine|
+const|const override {}|tabnine|S
+vi|virtual|tabnine|
+ex|exception|tabnine|
+set|set_number|tabnine|
+th|throw|tabnine|
+all|allpositions[r][col]|tabnine|S
+all|allpositions[r][col],|tabnine|
+set|set_number|tabnine|
+allposi|allpositions[row][col]|tabnine|S
+ex|exception|tabnine|
+all|allpositions|tabnine|
+exce|exception>|tabnine|
+ei|eight << one|tabnine|
+se|seven << one,|tabnine|
+si|six << one,|tabnine|
+fi|five << one,|tabnine|
+the|three|tabnine|
+all|allpositions|tabnine|
+thi|this;|tabnine|
+boar|board &other)|tabnine|
+bo|board &other)|tabnine|
+std|std::endl;|tabnine|
+b|b << std::endl;|tabnine|
+const|const board &board )|tabnine|
+st|std::ostream &operator<<( std::ostream &)>>|tabnine|S
+col|col = full;|tabnine|
+all|allpositions|tabnine|
+full|full;|tabnine|
+col|col] = full|tabnine|
+row|row][col] =|tabnine|
+all|allpositions|tabnine|
+cons|constexpr static const i|tabnine|
+constex|constexpr static const i|tabnine|
+dism|dismantled|tabnine|
+re|return|tabnine|
+di|diags << std::end|tabnine|
+sid|side << " primes = " << primes << " diags = "|tabnine|
+side|side << " primes = " << primes << " diags = "|tabnine|
+to|to_test|tabnine|
+ho|how-many-primes-for-this-side-length|around|
+va|value|around|
+next-|next-spiral|around|
+nex|next( @spiral)|tabnine|S
+is|is-in-diag|tabnine|
+rel|relevant-prime|tabnine|
+rel|relevant-prime|around|
+nex|next-spiral|around|
+nex|next-spiral|around|
+col|col-step|tabnine|
+col|col-step|tabnine|
+row|row-step|around|
+col|col-step|tabnine|
+ste|step|tabnine|
+new|new-spiral|tabnine|
+new-spi|new-spiral|around|
+sr|straight-flush|around|
+fu|full-house|tabnine|
+strai|straight|around|
+str|straight|around|
+tw|two-pairs|around|
+two-|two-pairs|around|
+str|straight|around|
+str|straight-flush|around|
+ro|royal-flush|tabnine|
+ro|royal-flush|tabnine|
+ro|royal-flush|tabnine|
+ro|royal-flush|tabnine|
+ro|royal-flush|around|
+rer|rerelease|file|
+Qua|Quake|file|
+com|common|file|
+ste|steamapps|file|
+S|Steam|file|
+sh|share|file|
+Agnosti|Agnostic",|tabnine|

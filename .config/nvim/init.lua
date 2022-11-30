@@ -20,7 +20,7 @@ vim.opt.breakindent = true
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
-vim.opt.undodir = vim.fn.expand('~/.vim/undodir')
+vim.opt.undodir = { share .. "/nvim/undodir" }
 vim.opt.undofile = true
 vim.opt.autowrite = true
 vim.opt.autoread = true
@@ -57,6 +57,26 @@ vim.opt.whichwrap[">"] = true
 --
 vim.cmd([[
 set spell
+
+" Some Debian-specific things
+if has("autocmd")
+  " set mail filetype for reportbug's temp files
+  augroup debian
+    au BufRead reportbug-*		set ft=mail
+  augroup END
+
+  au BufReadPost * if line("'\"") > 1 && line("'\"") < line("$")
+               \|    exe "normal! g`\""
+               \|  endif
+endif
+
+" Set paper size from /etc/papersize if available (Debian-specific)
+if filereadable("/etc/papersize")
+  let s:papersize = matchstr(readfile('/etc/papersize', '', 1), '\p*')
+  if strlen(s:papersize)
+    exe "set printoptions+=paper:" . s:papersize
+  endif
+endif
 ]])
 
 ---

@@ -1,3 +1,4 @@
+#!/usr/bin/env raku
 use nqp;
 use QAST:from<NQP>;
 

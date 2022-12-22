@@ -1,9 +1,0 @@
-{
-  "languageserver": {
-    "raku": {
-      "command": "raku",
-      "args": ["/home/h/.vscode-oss/extensions/bscan.raku-navigator-0.1.0/server/src/raku/navigator.raku"],
-      "filetypes": ["raku"]
-    }
-  }
-}
